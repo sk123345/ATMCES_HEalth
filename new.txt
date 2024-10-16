@@ -1,0 +1,91 @@
+Here's the full process to use MongoDB in your Node.js application:
+
+
+Step 1: Install MongoDB and MongoDB Compass
+
+
+Download and install MongoDB Community Server from the official MongoDB website.
+
+
+Download and install MongoDB Compass, a GUI tool for managing MongoDB databases.
+
+
+Step 2: Install Mongoose
+
+
+Mongoose is a popular MongoDB ORM (Object Relational Mapping) library for Node.js.
+
+
+Run the following command in your terminal:
+
+
+
+npm install mongoose
+
+
+
+Step 3: Connect to MongoDB
+
+
+Create a new file called database.js and add the following code:
+
+
+
+
+
+
+Step 4: Define Mongoose Models
+
+
+Create a new file called user.model.js and add the following code:
+
+
+
+
+
+
+Step 5: Create API Endpoints
+
+
+Create a new file called auth.route.js and add the following code:
+
+
+
+
+
+
+
+Step 6: Hash Passwords
+
+
+Use bcrypt to hash passwords:
+
+
+
+
+
+
+
+Step 7: Integrate with Express
+
+
+Create a new file called app.js and add the following code:
+
+
+
+
+
+
+
+That's it! You now have a basic Node.js application with MongoDB integration.
+
+
+Run the application using:
+
+
+
+node app.js
+
+
+
+Use Postman or cURL to test the API endpoints.
